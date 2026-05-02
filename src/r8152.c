@@ -30,6 +30,7 @@
 #include <linux/suspend.h>
 #include <linux/atomic.h>
 #include <linux/acpi.h>
+#include <linux/hex.h>
 #include "compatibility.h"
 
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(6,4,10)
